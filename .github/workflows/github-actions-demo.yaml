@@ -7,3 +7,5 @@ jobs:
     steps:
       - name: Report Triggering event
         run: echo "This workflow was triggered by the ${{ github.event_name }} event."
+      - name: Data da execução
+        run: echo "The da ${{ runner.date }}."
